@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fstatic6.businessinsider.com%2Fimage%2F56b36fc72e5265b6008b4cd0-1190-625%2Fjeff-bridges-says-hes-all-in-for-starring-in-a-big-lebowski-sequel-its-a-great-idea.jpg&f=1&nofb=1"
+                alt="">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <h1>My landing page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quis?</p>
+        <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+    <div class="container">
+        <h2>What is this landing page about</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis error, fugit illo culpa esse voluptas ad
+            suscipit totam accusantium. Doloribus!</p>
+
+        <h2>Tell me more</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea natus placeat fugiat architecto laboriosam est
+            eveniet nemo incidunt esse, vitae odit suscipit commodi maiores, illum deserunt? Autem, reiciendis ipsum
+            molestias repellat, accusantium qui vero aliquid harum officia maiores a ullam.</p>
+
+        <h2>Benefits</h2>
+        <ul>
+            <li>Lifetime Access</li>
+            <li>30 Day Money Back</li>
+            <li>Tailored Customer Support</li>
+        </ul>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio natus mollitia aliquid beatae vero unde harum
+            in sunt, magni aperiam voluptatibus quis, corporis dolorem quo consequatur similique enim quaerat ab
+            repellat perspiciatis sit id suscipit. Laudantium quis, fugiat assumenda architecto cum reprehenderit
+            inventore ratione nobis nisi placeat? Adipisci numquam non dolor? Sequi culpa iste iusto quidem fugiat quos
+            consequatur, omnis quod minus repellat, unde illo et fuga, dolor harum amet.</p>
+    </div>
+
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p>Register with us to get offers,support & more.</p>
+            </div>
+            <form action="" class="modal-form">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" class="form-input" id="name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" class="form-input" id="email" placeholder="Enter your Email">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="text" class="form-input" id="password" placeholder="Enter your Password">
+                </div>
+                <div>
+                    <label for="password2">Confirmn Password</label>
+                    <input type="text" class="form-input" id="password2" placeholder="Confirm Password">
+                </div>
+                <input type="submit" value="Submit" class="submit-btn">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
